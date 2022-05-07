@@ -1,0 +1,112 @@
+body
+{
+font-family: sans-serif;
+padding: 0%;
+margin: 0%;
+background-color: white;
+direction: ltr;
+}
+.container
+{
+width: 100%;
+margin: auto;
+overflow: hidden;
+}
+ul
+{
+    padding: 20px;
+}
+header 
+{
+background-color:#353637;
+color:white;
+padding-top: 30px;
+min-height: 70px;
+}
+header a
+{
+color: white;
+text-decoration:none;
+font-size: 20px;
+}
+header li
+{
+float: right;
+display: inline;
+padding: 0 20px 0 20px;
+}
+header #brand
+{
+float: right;
+
+}
+header .current a
+{
+    color:white;
+    font-weight: bold;
+}
+header a:hover 
+{
+    color:red ;
+    font-weight:bold ;
+}
+#showpic 
+{
+    min-height: 500px;
+    background: url("../images/28141.jpeg") no-repeat center ;
+    background-size: cover;
+}
+#boxes
+{
+    margin-top: 20px;
+
+}
+#boxes .box
+{
+    float: right;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+footer 
+{
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+    background-color:black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+@media(max-width:768px)
+{
+header #brand,
+heade nav,
+hrader nav li,
+#newsletter h1,
+#boxes.box
+form
+
+{
+float: none;
+text-align: center;
+width: 100%;
+}
+header
+{
+    padding-bottom: 20px;
+
+}
+newsletter .button
+{
+display: block;
+width: 100%;
+
+}
+form
+{
+    width: 100%;
+    margin-bottom: 5px;
+    
+}
+}
